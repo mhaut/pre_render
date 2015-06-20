@@ -1,0 +1,1 @@
+g++ -I../map -I../shared/math -I../shared/util ../map/vector_map.cpp pre_render.cpp -o pre_render -mmmx -msse -msse2 -msse4.1 -std=c++11
